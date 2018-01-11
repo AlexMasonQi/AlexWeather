@@ -1,0 +1,185 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-image: url("/AlexWeather/images/back1.jpg");
+    color:white;
+}
+
+fieldset
+{
+    margin-top: 60px;
+}
+.nav
+{
+    text-align: left;
+}
+.city
+{
+    margin-left:0;
+}
+.weather
+{
+    margin-top:60px;
+}
+#inputCity
+{
+    color:white;
+}
+/******下拉菜单框******/
+.select_box
+{
+    padding-left:0;
+    display:none;
+}
+.select_list1
+{
+    font-size:14px;
+    background: white;
+}
+.common-title
+{
+    display:block;
+    color:#666;
+    height:30px;
+    line-height:30px;
+    background: #f2f8ff;
+    border-bottom: #cde1ff solid 2px;
+
+}
+.common-city
+{
+    display:inline-block;
+    list-style-type: none;
+    margin-bottom:15px;
+}
+.select-region
+{
+    display:inline-block;
+    list-style-type: none;
+    margin-bottom:15px;
+}
+.com-city
+{
+    display:block;
+    text-decoration: none;
+    color:#666;
+}
+.com-city:hover
+{
+    text-decoration: none;
+    color:orangered;
+}
+.pro_list
+{
+    background: white;
+    font-size:14px;
+}
+.com-region
+{
+    display:block;
+    text-decoration: none;
+    color:#666;
+}
+.com-region:hover
+{
+    text-decoration: none;
+    color:orangered;
+}
+li
+{
+    height:24px;
+    line-height: 24px;
+    margin-top:15px;
+    margin-left:18px;
+    margin-right:22px;
+}
+.select_list2
+{
+    display:none;
+    background: white;
+    font-size:14px;
+    width:365px;
+    margin-left:0;
+    padding-left:0;
+    padding-right:0;
+}
+.region-name
+{
+    position:relative;
+    display:block;
+    padding:0 16px 0 4px;
+    color:#666;
+    height:30px;
+    line-height:30px;
+    background: #f2f8ff;
+    border-bottom: #cde1ff solid 2px;
+    text-align:right;
+}
+.back
+{
+    color:#666;
+    position:absolute;
+    left:8px;
+    top:0;
+}
+.back:hover
+{
+    text-decoration: none;
+    color:orangered;
+}
+.city-list
+{
+    display:inline-block;
+    list-style-type: none;
+    margin-bottom:15px;
+}
+.select-query
+{
+    font-size:14px;
+    width:365px;
+    background: white;
+    display:none;
+}
+.res:hover
+{
+    background: #4ab3ff;
+}
+
+/******查询按钮******/
+.querybtn
+{
+    display: block;
+    margin-top:20px;
+}
+#submitbtn
+{
+    font-size: 13px;
+}
+#submitbtn:hover
+{
+    cursor: pointer;
+}
+
+/******天气显示部分******/
+.show-weather
+{
+    margin-top:30px;
+    text-align: center;
+    display:none;
+}
+.win-direction
+{
+    margin-right:10px;
+}
+.wind-speed
+{
+    margin-right:10px;
+}
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<!-- 城市服务映射文件 -->
+<mapper namespace="com.alex.dao.CityMapper">
+	
+	<!-- 根据省份/自治区/直辖市/特别行政区名称获取相应城市/县名称 -->
+	<select id="getCityByProvience" parameterType="String" resultType="Region">
+		select id,provience,procode,city,citycode from region where provience=#{provience}
+	</select>
+	
+	<!-- 根据输入的城市/县名称获得区域对象 -->
+	<select id="getCityCodeByName" resultType="Region">
+		select id,provience,procode,city,citycode from region where provience=#{provience} and city=#{city} 
+	</select>
+</mapper>
