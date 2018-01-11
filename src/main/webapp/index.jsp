@@ -42,7 +42,7 @@
             <div class="form-group col-md-4 nav">
                 <label for="inputCity" class="city">所在城市</label>
                 <input type="text" class="form-control" id="inputCity" oninput="listenText()"  placeholder="请输入所在城市">
-
+                <br><span style="color:red">注：仅支持国内天气查询，并且暂不支持查询台湾以及南海诸岛</span>
                 <%--下拉框--%>
                 <div class="select_box" style="display: none">
                     <div class="select_list1">
@@ -50,34 +50,34 @@
                             <span class="common-title">&nbsp;&nbsp;&nbsp;常用城市</span>
                             <ul class="list-inline common-city">
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">北京</a>
+                                    <a href="javascript:void(0)" class="com-city">北京</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">上海</a>
+                                    <a href="javascript:void(0)" class="com-city">上海</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">杭州</a>
+                                    <a href="javascript:void(0)" class="com-city">杭州</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">广州</a>
+                                    <a href="javascript:void(0)" class="com-city">广州</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">深圳</a>
+                                    <a href="javascript:void(0)" class="com-city">深圳</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">武汉</a>
+                                    <a href="javascript:void(0)" class="com-city">武汉</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">南京</a>
+                                    <a href="javascript:void(0)" class="com-city">南京</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">天津</a>
+                                    <a href="javascript:void(0)" class="com-city">天津</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">长沙</a>
+                                    <a href="javascript:void(0)" class="com-city">长沙</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="com-city">济南</a>
+                                    <a href="javascript:void(0)" class="com-city">济南</a>
                                 </li>
                             </ul>
                         </div>
@@ -182,12 +182,6 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="javascript:void(0)" class="com-region" >澳门</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="javascript:void(0)" class="com-region" >台湾</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="javascript:void(0)" class="com-region" >钓鱼岛</a>
                                 </li>
                             </ul>
                         </div>

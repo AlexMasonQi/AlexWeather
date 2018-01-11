@@ -141,6 +141,7 @@ public class CurrentWeather
 				info = arr.getJSONObject(0);
 			}
 
+			// ·â×°¶ÔÏó
 			weaInfo = new WeatherInfo();
 			weaInfo.setProvience(info.getString("province"));
 			weaInfo.setCityName(info.getString("city"));

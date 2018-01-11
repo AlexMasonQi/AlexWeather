@@ -74,6 +74,17 @@ fieldset
     text-decoration: none;
     color:orangered;
 }
+.com-city1
+{
+    display:block;
+    text-decoration: none;
+    color:#666;
+}
+.com-city1:hover
+{
+    text-decoration: none;
+    color:orangered;
+}
 .pro_list
 {
     background: white;
