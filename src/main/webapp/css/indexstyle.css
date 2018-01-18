@@ -7,6 +7,7 @@
 body
 {
     background-image: url("/AlexWeather/images/back1.jpg");
+    background-repeat: no-repeat;
     color:white;
 }
 
@@ -191,6 +192,33 @@ li
 {
     margin-right:10px;
 }
+
+/*备案信息和开源地址*/
+.info
+{
+    color:#e0e0e0;
+    text-align:center;
+    padding-bottom:18px;
+    /*-webkit-transform: translate(0%,1000%);*/
+    /*-moz-transform: translate(0%,1000%);*/
+    /*-ms-transform: translate(0%,1000%);*/
+    /*-o-transform: translate(0%,1000%);*/
+    /*transform: translate(0%,1000%);*/
+    position:absolute;
+    top:1000px;
+    left:200px;
+    z-index:-1;
+}
+hr
+{
+    border:0;
+    border-bottom:1px solid #f2f2f2;
+}
+.info a
+{
+    color:#e0e0e0;
+}
+
 
 
 

@@ -215,5 +215,10 @@
     <span class="last-update-time"></span><br>
     <span class="win-direction"></span><span class="wind-speed"></span><span class="humidity"></span>
 </div>
+
+<div class="container info">
+    <hr>
+    <span class="git">贡献到&nbsp;<a href="https://github.com/Baymax6/AlexWeather.git" target="_blank"><img src="<%=basePath%>/icons/GitHub-Mark-Light-32px.png" width="15" height="15">&nbsp;Github</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;京ICP备17067056号
+</div>
 </body>
 </html>
